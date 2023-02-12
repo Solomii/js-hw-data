@@ -1,8 +1,8 @@
 "use strict";
 
-const handlerBtn = ({ target }) => {
+const handlerBtn = ({ target: { parentElement: parent , dataset:{bgColor}} }) => {
     // console.log(target.innerText)
-    target.parentElement.style.backgroundColor = target.innerText;
+    parent.style.backgroundColor = bgColor;
 };
 
 const btns = document.querySelectorAll("#wrapper>button");
