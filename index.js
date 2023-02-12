@@ -2,7 +2,7 @@
 
 const handlerBtn = ({ target }) => {
     // console.log(target.innerText)
-    target.style.backgroundColor = target.innerText;
+    target.parentElement.style.backgroundColor = target.innerText;
 };
 
 const btns = document.querySelectorAll("#wrapper>button");
