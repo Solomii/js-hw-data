@@ -7,17 +7,34 @@
         <title>Solomiia</title>
         <script defer src="./index.js"></script>
         <style>
-            #wrapper {
-                padding: 20px;
+            #box-btn-direction {
+                display: flex;
+                margin-top: 20px;
+                height: 75%;
+                width: 75%;
+            }
+            #box-btn-direction > button {
+                margin: 2px;
+               
             }
         </style>
     </head>
-    <body>
-        <div id="wrapper">
-            <button data-bg-color="red">червоний</button>
-            <button data-bg-color="green">зелений</button>
-            <button data-bg-color="pink">рожевий</button>
-            <button data-bg-color="orange">оранжевий</button>
+     <body>
+     <section>
+     <div id="data-btn-directon">
+            <button data-direction="row">row</button>
+            <button data-direction="row-reverse">row-reverse</button>
+            <button data-direction="column">column</button>
+            <button data-direction="column-reverse">column-reverse</button>
         </div>
-    </body>
+        <div id="box-btn-direction">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+        </div>
+      
+   </body> 
+</section>
+</html>
 </html>
