@@ -1,0 +1,23 @@
+section {
+    padding: 5px;
+    width: 55%;
+}
+
+#data-btn-direction > button:hover {
+    background-color: #50c4f1;
+}
+
+#box-btn-direction {
+    margin-top: 20px;
+    padding: 5px;
+    height: 18vh;
+    border: 1px solid #50c4f1;
+}
+
+#box-btn-direction > button {
+    margin: 2px;
+    background-color: #98defc;
+    border: none;
+    font-size: 25px;
+    padding: 3px;
+}
