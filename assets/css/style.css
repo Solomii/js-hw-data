@@ -1,20 +1,21 @@
 section {
     padding: 5px;
-    width: 55%;
+    width: 100%;
 }
 
-#data-btn-direction > button:hover {
+#box-data-attribute > button:hover {
     background-color: #50c4f1;
 }
 
-#box-btn-direction {
+#box-btns-direction{
+    display: block;
     margin-top: 20px;
     padding: 5px;
     height: 18vh;
     border: 1px solid #50c4f1;
 }
 
-#box-btn-direction > button {
+#box-btns-direction> button {
     margin: 2px;
     background-color: #98defc;
     border: none;
